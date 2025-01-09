@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vertexpace/static/css/main.9e85fc19.css",
+    "main.js": "/vertexpace/static/js/main.cae1983d.js",
+    "index.html": "/vertexpace/index.html",
+    "main.9e85fc19.css.map": "/vertexpace/static/css/main.9e85fc19.css.map",
+    "main.cae1983d.js.map": "/vertexpace/static/js/main.cae1983d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e85fc19.css",
+    "static/js/main.cae1983d.js"
+  ]
+}
