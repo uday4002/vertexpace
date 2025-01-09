@@ -1,0 +1,139 @@
+.contact-container{
+    padding:20px;
+    padding-top:40px;
+    padding-bottom:60px;
+    background: #122648;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-logo{
+    width: 122.98px;
+    height: 95px;
+}
+.section-para{
+    font-family: Poppins;
+    font-size: 15.5px;
+    font-weight: 500;
+    line-height: 22.4px;
+    color:#ffffff;
+    margin-top:10px;
+    margin-right:15px;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.social-icon{
+    width: 36.4px;
+    height: 36.4px;
+    top: 210.93px;
+    left: 10px;
+    padding: 11.2px 0px 11.2px 0px;
+    border-radius: 18.2px;
+    border: 1px;
+    background: #122648;
+    border: 1px solid #DCE8FF59;
+    margin-right:10px;
+    color:#ffffff;
+}
+.section-line{
+    color:#ffffff;
+    width:40px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:20px;
+}
+.h{
+    font-weight:bold;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:20px;
+}
+.contact-align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:250px;
+}
+.contact-icon{
+    width: 18px;
+    height: 18px;
+    color:#ffffff;
+    margin-right:8px;
+}
+.location-info{
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 22.4px;
+    text-align: left;
+    color:#ffffff;
+    margin-top:10px;
+}
+.location{
+    height:60px;
+    width:60px;
+    margin-left:25px;
+}
+.fotter-container{
+    display: none;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:40px;
+}
+.p{
+    font-size:14px;
+    margin-top:20px;
+}
+.fotter-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (min-width:768px) {
+    .contact-container{
+        display: flex;
+    }
+    .section1{
+        width:33%;
+    }
+    .section2{
+        width:33%;
+    }
+    .section3{
+        width:33%;
+    }
+    .section4{
+        display: none;
+    }
+    .fotter-container{
+        display: flex;
+        background-color: #0d2347;
+        padding:10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

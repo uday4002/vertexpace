@@ -1,0 +1,8 @@
+.vertexpace-welcome-container{
+    background: linear-gradient(90deg, #0F3069 0%, #113575 100%);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

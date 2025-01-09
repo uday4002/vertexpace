@@ -1,0 +1,107 @@
+.welcomepage-container{
+    text-align: center;
+    padding:20px;
+    margin-top:-30px;
+}
+.welcomepage-heading{
+    margin-top:30px;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    color:#ffffff;
+    line-height: 1.2;
+}
+.span-element{
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    color:#F08040;
+}
+.welcomepage-quotation{
+    font-family: Poppins;
+    font-size: 15.38px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color:#ffffff;
+    margin-top:30px;
+    text-align: left;
+}
+.quotation-author{
+    font-family: Poppins;
+    font-size: 15.38px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color:#ffffff;
+    margin-top:30px;
+    text-align: right;
+    margin-top:-2px;
+}
+.get-started-button{
+    width: 294px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F08040;
+    color:#ffffff;
+    border-width:0px;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:20px;
+}
+.browse-course-button{
+    width: 294px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color:#F08040;
+    border-width:0px;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:10px;
+}
+.image-container{
+    background-image: url("https://s3-alpha-sig.figma.com/img/6ad0/b721/3c60858c1a1059a40fec42f34d20c3b3?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FgvECZ45aNssJhme5Q6nURHe9pBpH4kgvAAXD444pt3jVYRk5k7TvmSlK5UifQQ33uMMlOmaJU635HN4mN5rLIzJ~Zsk0UypJs5UrcOeBcvmwE2dyYbDqRZuSg0x2gSO8aIfzFSYnk~mtCPQGHcJYrPwvkP5bqPQy0K4wOXZmKTYlCba0kx~861TmvlVX5~no0CyxNd6p46Wk0XXttlzysqoHNFSGYZy9E0hgs3yZf0RRcvWn4PvSIfXeLijPrTiqroCSdCZmcKX9c0mOWzqBaYVYYjxt5Pf~HOeovcGwJLEBcq~7stpQlvTPIHq1xZH9FOf8ZhIniwSVcxm~GFWJg__");
+    background-size:cover;
+    margin-top: 40px;
+    height:318px;
+    width:318px;
+    margin-left:-40px;
+}
+.home-image{
+    width: 254px;
+    height: 254px;
+    top: 837.44px;
+    left: 23.26px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 280px;
+    margin-left: 74.5px;
+    margin-top:34px;
+}
+
+@media screen and (min-width:768px) {
+    .welcomepage-container{
+        display: flex;
+        align-items: center;
+        padding:40px;
+    }
+    .browse-course-button{
+        display: none;
+    }
+    .text-container{
+        max-width:50%;
+        text-align: left;
+        margin-right: 80px;
+    }
+    .image-container{
+        height:420px;
+        width:420px;
+    }
+    .home-image{
+        height:320px;
+        width:320px;
+        margin-left: 104.8px;
+        margin-top:51.2px;
+    }
+}
